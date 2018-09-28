@@ -1,0 +1,50 @@
+@import "_sittings.scss";
+
+
+
+header{
+	.header_linear{
+			height: 100vh;
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-template-rows:100px 1fr ;
+		.logo_menu{
+			grid-column: 1;
+			grid-row: 1 ;
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-template-rows: 1fr;
+			.logo{
+				img{}
+			}
+			.menu{
+				ul{
+					li{
+						a{}
+					}
+				}
+			}
+		}
+		.header_slogon{
+			grid-column:1/3 ;
+			grid-row:2 ;
+			.block_h1{
+				span{}
+				h1{}			
+				p{}
+			}
+
+		}
+		.block_regist{
+			input{}
+			label{
+				input{}
+				.checkbox_text{
+					p{}
+				}
+
+			}
+			button{
+				
+			}
+		}
+	}
+}
