@@ -45,7 +45,13 @@ a{
 	text-decoration: none;
 }
 
-
+@mixin flex_esmt{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}/* @include flex_esmt*/
 
 @mixin h1_esmt{
 
