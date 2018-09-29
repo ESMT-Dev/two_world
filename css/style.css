@@ -50,6 +50,14 @@ a {
 /*@include span_esmt*/
 /*@include p_esmt*/
 /*@include input_esmt*/
+body {
+  background: #a9a0a2; }
+
+.contant {
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 1200px; }
+
 header .header_linear {
   margin: 0 auto;
   padding: 0 auto;
@@ -102,6 +110,7 @@ header .header_linear {
           display: -o-flex;
           display: flex; }
   header .header_linear .header_slogon {
+    margin-top: 122px;
     grid-column: 1/4;
     grid-row: 2;
     display: grid;
@@ -110,9 +119,32 @@ header .header_linear {
     header .header_linear .header_slogon .block_h1 {
       grid-column: 1;
       grid-row: 1; }
+      header .header_linear .header_slogon .block_h1 span {
+        color: #d03958;
+        text-transform: uppercase;
+        font-size: 63px;
+        text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3); }
+      header .header_linear .header_slogon .block_h1 h1 {
+        font-size: 63px;
+        color: #000;
+        text-shadow: 0px 15px 5px rgba(0, 0, 0, 0.1), 10px 20px 5px rgba(0, 0, 0, 0.05), -10px 20px 5px rgba(0, 0, 0, 0.05); }
     header .header_linear .header_slogon .block_regist {
+      text-align: center;
+      margin: 0 auto;
+      padding: 20px 20px;
       width: 400px;
       height: 516px;
       background: #d03958;
       grid-column: 2;
-      grid-row: 1; }
+      grid-row: 1;
+      border-radius: 12px; }
+      header .header_linear .header_slogon .block_regist input {
+        display: inline-block;
+        width: 353px;
+        height: 60px;
+        margin: 18px;
+        border-radius: 20px; }
+      header .header_linear .header_slogon .block_regist label
+input {
+        width: 10px;
+        height: 10px; }
