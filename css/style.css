@@ -62,7 +62,6 @@ header .header_linear {
   margin: 0 auto;
   padding: 0 auto;
   display: grid;
-  height: 100vh;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 120px 1fr; }
   header .header_linear .logo_menu {
@@ -110,7 +109,8 @@ header .header_linear {
           display: -o-flex;
           display: flex; }
   header .header_linear .header_slogon {
-    margin-top: 122px;
+    background: url(../img/header/header.png) no-repeat center top/cover;
+    padding-top: 122px;
     grid-column: 1/4;
     grid-row: 2;
     display: grid;
