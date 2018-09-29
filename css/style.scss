@@ -1,5 +1,7 @@
 @import "_sittings.scss";
 @import "_media.scss";
+@import "_fonts.scss";
+
 body{
 	background: #a9a0a2;
 }
@@ -69,7 +71,11 @@ header{
 			}
 		}
 		.header_slogon{
-			background: url(../img/header/header.png) no-repeat center top / cover;
+			
+
+			background:linear-gradient(rgba(255, 0, 102, .5) 0%, rgba(255, 255, 204, .5)),url(../img/header/header.png);
+			/*background-image: linear-gradient(to right,rgba(255, 0, 102, .5) 0%, rgba(255, 255, 204, .5));*/
+
 			padding-top: 122px;
 			border-radius: 0 0 20px 0;
 			padding-bottom: -120px;
