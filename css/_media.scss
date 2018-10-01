@@ -1,0 +1,119 @@
+@import "_sittings.scss";
+@import "_fonts.scss";
+
+@media screen and ( max-width: 1000px){
+	.header_linear{
+		width: 100%;
+		@include flex_esmt;
+		justify-content: space-around;
+		.logo_menu{
+			.logo{
+				img{}
+			}
+			#menu_checbox{
+			}
+			nav{
+				label{}
+				.main_menu{
+					li{
+						a{}
+					}
+				}
+			}
+		}
+		.header_slogon{
+			.block_h1{
+				span{}
+				h1{}
+				p{}
+				div{
+					span{z-index: 3}
+					h1{z-index: 3}
+				}
+			}
+			.block_regist{
+				p{}
+				input{}
+				label{
+					input{}
+					div{
+						p{}
+					}
+				}
+				span.header_span{
+
+				}
+			}
+
+		}
+	}	
+}
+
+@media screen and ( max-width: 820px){
+	.header_slogon .block_h1  div span{
+		z-index: 3;
+
+	} 
+
+	.header_slogon .block_h1  div h1{
+		z-index: 3;
+	} 
+
+	}
+
+
+@media screen and ( max-width: 420px){
+	.header_linear{
+		width: 100%;
+		@include flex_esmt;
+		justify-content: space-around;
+		.logo_menu{
+			.logo{
+				img{}
+			}
+			#menu_checbox{
+				display: block;
+			}
+			nav{
+				label{}
+				.main_menu{
+					display: none;
+					li{
+						a{}
+					}
+				}
+			}
+		}
+		.header_slogon{
+			.block_h1{
+				span{}
+				h1{}
+				p{}
+				div{
+					span{}
+					h1{}
+				}
+			}
+			.block_regist{
+				p{}
+				input{}
+				label{
+					input{}
+					div{
+						p{}
+					}
+				}
+				span.header_span{
+
+				}
+			}
+
+		}
+	}	
+}
+
+
+
+
+
+
